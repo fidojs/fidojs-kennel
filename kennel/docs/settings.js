@@ -1,6 +1,6 @@
 /**
- * @module {{}} playground/settings settings
- * @parent playground
+ * @module {{}} example/settings settings
+ * @parent example
  * @option {String} environment Production, development, or staging.
  * @option {Number} requestTimeout How long to wait between requests.
  */
