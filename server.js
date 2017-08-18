@@ -2,7 +2,7 @@ const consoleApp = require('@fidojs/fidojs-kennel-console');
 const { GlitchPlease } = require('glitch-please');
 const path = require('path');
 
-please = new GlitchPlease({
+const please = new GlitchPlease({
   appPath: path.join(__dirname, 'kennel'),
   installedDirectory: ['node_modules', 'bit-docs', 'lib', 'configure', 'node_modules'],
   installPatterns (pkg) {
