@@ -1,0 +1,33 @@
+{
+  "name": "@fidojs/fidojs-kennel",
+  "version": "0.1.0",
+  "description": "Container for testing FidoJS.",
+  "keywords": [
+    "container",
+    "demo",
+    "example",
+    "fido",
+    "fidojs",
+    "glitch",
+    "kennel"
+  ],
+  "license": "MIT",
+  "author": "Bitovi",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fidojs/fidojs-kennel.git"
+  },
+  "dependencies": {
+    "fidojs-kennel-console": "*",
+    "glitch-please": "*"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "bugs": {
+    "url": "https://github.com/fidojs/fidojs-kennel/issues"
+  },
+  "homepage": "https://github.com/fidojs/fidojs-kennel#readme",
+  "devDependencies": {}
+}
