@@ -1,4 +1,4 @@
-const consoleApp = require('fidojs-kennel-console');
+const consoleApp = require('@fidojs/fidojs-kennel-console');
 const { GlitchPlease } = require('glitch-please');
 const path = require('path');
 
