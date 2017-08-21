@@ -11,18 +11,18 @@
     "install": "npm run fido"
   },
   "devDependencies": {
-    "bit-docs": "*"
+    "bit-docs": "bit-docs/bit-docs"
   },
   "engines": {
     "node": ">=6.9.0"
   },
   "bit-docs": {
     "dependencies": {
-      "bit-docs-glob-finder": "*",
-      "bit-docs-dev": "*",
-      "bit-docs-generate-html": "*",
-      "bit-docs-js": "*",
-      "bit-docs-prettify": "*"
+      "bit-docs-glob-finder": "bit-docs/bit-docs-glob-finder",
+      "bit-docs-dev": "bit-docs/bit-docs-dev",
+      "bit-docs-generate-html": "bit-docs/bit-docs-generate-html",
+      "bit-docs-js": "bit-docs/bit-docs-js",
+      "bit-docs-prettify": "bit-docs/bit-docs-prettify"
     },
     "glob": {
       "pattern": "docs/**/*.{js,md}"
