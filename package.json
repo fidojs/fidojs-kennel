@@ -11,6 +11,10 @@
     "glitch",
     "kennel"
   ],
+  "homepage": "https://github.com/fidojs/fidojs-kennel#readme",
+  "bugs": {
+    "url": "https://github.com/fidojs/fidojs-kennel/issues"
+  },
   "license": "MIT",
   "author": "Bitovi",
   "main": "server.js",
@@ -18,16 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/fidojs/fidojs-kennel.git"
   },
+  "scripts": {
+    "start": "node server.js"
+  },
   "dependencies": {
     "@fidojs/fidojs-kennel-console": "^0.1.0",
     "glitch-please": "^0.1.0"
   },
-  "scripts": {
-    "start": "node server.js"
-  },
-  "bugs": {
-    "url": "https://github.com/fidojs/fidojs-kennel/issues"
-  },
-  "homepage": "https://github.com/fidojs/fidojs-kennel#readme",
   "devDependencies": {}
 }

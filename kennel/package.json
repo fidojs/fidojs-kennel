@@ -4,11 +4,11 @@
   "description": "Example using FidoJS",
   "main": "index.js",
   "scripts": {
-    "cache-bust": "rm -rf ./node_modules/bit-docs/lib/configure/node_modules/bit-docs-generate-html/site/{static,templates} && npm run clean-dest && npm run gen",
+    "fido": "bit-docs -d",
     "clean-dest": "rm -rf ${npm_package_bit_docs_dest:-./doc}",
+    "cache-bust": "rm -rf ./node_modules/bit-docs/lib/configure/node_modules/bit-docs-generate-html/site/{static,templates} && npm run clean-dest && npm run fido",
     "force-build": "bit-docs -fd",
-    "gen": "bit-docs -d",
-    "install": "npm run gen"
+    "install": "npm run fido"
   },
   "devDependencies": {
     "bit-docs": "*"
@@ -20,8 +20,8 @@
     "dependencies": {
       "bit-docs-glob-finder": "*",
       "bit-docs-dev": "*",
-      "bit-docs-generate-html": "bit-docs/bit-docs-generate-html",
-      "bit-docs-js": "bit-docs/bit-docs-js#signature-template",
+      "bit-docs-generate-html": "*",
+      "bit-docs-js": "*",
       "bit-docs-prettify": "*"
     },
     "glob": {
