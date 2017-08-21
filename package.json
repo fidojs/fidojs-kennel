@@ -1,6 +1,6 @@
 {
   "name": "@fidojs/fidojs-kennel",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "description": "Container for testing FidoJS.",
   "keywords": [
     "container",
@@ -26,8 +26,8 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "@fidojs/fidojs-kennel-console": "^0.1.0",
-    "glitch-please": "^0.1.0"
+    "@fidojs/fidojs-kennel-console": "^0.2.0",
+    "glitch-please": "^0.2.0"
   },
   "devDependencies": {}
 }
