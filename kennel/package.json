@@ -25,10 +25,10 @@
       "bit-docs-prettify": "bit-docs/bit-docs-prettify"
     },
     "glob": {
-      "pattern": "docs/**/*.{js,md}"
+      "pattern": "presentation-slides/**/*.{js,md}"
     },
-    "parent": "example",
+    "parent": "presentation",
     "minifyBuild": false,
-    "dest": "doc"
+    "dest": "presentation"
   }
 }
