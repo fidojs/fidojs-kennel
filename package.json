@@ -26,8 +26,8 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "@fidojs/fidojs-kennel-console": "^0.2.0",
-    "glitch-please": "^0.2.0"
+    "@fidojs/fidojs-kennel-console": "^0.2.6",
+    "glitch-please": "^0.3.0"
   },
   "devDependencies": {}
 }
