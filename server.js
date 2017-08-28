@@ -3,6 +3,10 @@ const { GlitchPlease } = require('glitch-please');
 const path = require('path');
 const fs = require('fs');
 
+const express = require('express');
+const imagesApp = express();
+imagesApp.use(express.static(path.join(__dirname, 'kennel', 'presentation-slides', 'images')));
+
 const please = new GlitchPlease({
   appRoot: path.join(__dirname, 'kennel'),
   appIsInstalled (appRoot) {
@@ -29,4 +33,5 @@ please.appWatchRun(function(appPackageJSON) {
 }, { cmd: 'npm', args: ['run', 'fido'] });
 
 please.server.use('/', consoleApp);
+please.server.use('/img', imagesApp);
 please.startup();

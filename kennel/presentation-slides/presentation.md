@@ -1,7 +1,13 @@
 @page presentation Welcome to my Presentation!
-@description About bit-docs.
+@description All about bit-docs. MORE DOCS HERE
 
-# About
+@body
 
-Slides are in the sidebar on the left.
+```
+A box without hinges, key, or lid,
+Yet golden treasure inside is hid.
+  -- J.R.R. Tolkien
+```
+
+**Presented by**: Joel Kuzmarski
 

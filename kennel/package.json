@@ -29,6 +29,6 @@
     },
     "parent": "presentation",
     "minifyBuild": false,
-    "dest": "presentation"
+    "dest": "presentation-dist"
   }
 }

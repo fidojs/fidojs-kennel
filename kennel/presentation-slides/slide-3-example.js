@@ -1,12 +1,5 @@
-@parent presentation
-@page slide-3 JavaScript Module: Function Syntax
-@description How do we document a module that is using function syntax?
-
-@body
-
-```js
 /**
- * @parent playground
+ * @parent slide-3
  * @module {function} Concierge Concierge
  * @description An employee of some establishment.
  * @param {String} name Name of the concierge.
@@ -62,4 +55,3 @@ Object.assign(Concierge.prototype, {
 });
 
 module.exports = Concierge;
-```
